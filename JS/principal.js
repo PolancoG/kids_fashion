@@ -1,12 +1,12 @@
 const menu = document.querySelector('.hamburguesa');
 const navegacion = document.querySelector('.navegacion');
-const imagenes = document.querySelectorAll('img');
+const imagenes = document.querySelectorAll('imgs'); //Esta constante hay que revisar porque e contenedor choca con las imagenes. Yo le cambie el nombre para evistar el error.
 const btnTodos = document.querySelector('.todos');
 const btnEnsaladas = document.querySelector('.ensaladas');
 const btnPasta = document.querySelector('.pasta');
 const btnPizza = document.querySelector('.pizza');
 const btnPostres = document.querySelector('.postres');
-const contenedorPlatillos = document.querySelector('.platillos');
+const contenedorPlatillos = document.querySelector('.platillos'); 
 document.addEventListener('DOMContentLoaded',()=>{
     eventos();
     platillos();
