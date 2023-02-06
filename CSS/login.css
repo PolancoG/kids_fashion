@@ -1,8 +1,16 @@
 body {
 	font-family: arial,helvetica, sans-serif;
 	margin: 0;
+	padding: 0;
 	background-size: cover;
-	background-attachment: fixed;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                	                                                                                                                           	                                                                                                                    
+	background-attachment: fixed;   
+	height: 80vh; 
+/*	font-family: arial,helvetica, sans-serif;
+	margin: auto;
+	width: 640px;
+	padding: 100px;
+	background-size: cover;
+	background-attachment: fixed;   */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             	                                                                                                                           	                                                                                                                    
  }
 
 * {
@@ -13,13 +21,17 @@ body {
 	padding: 15px;
 
 }
-.formulario{
-	background: #fff;	
-	height: 80vh;
-	width: 90%;
-	padding: 3px;
-	margin: 5%;
-	position: static;
+.good{
+	background: #fff;
+	height: 415px;
+	width: 380px;
+	top: 45%;
+	left: 48%;
+	transform: translate(-51%, -49%);
+	padding: 15px;
+	margin: 3%;
+	position: relative;
+
 }
 
 h1 {
@@ -70,6 +82,7 @@ p {
 .link:hover{
      background: cadetblue;
 }
+/*
 @media(min-width: 768){
 	.formulario{
 		margin: auto;
@@ -77,14 +90,24 @@ p {
 		margin-top: 150px;
 		border-radius: 2%;
 	}
+} */
+@media(min-width: 768){
+	.formulario{
+		margin: center;
+		width: 100px;
+		margin-top: 150px;
+		border-radius: 2%;
+		align-items: ;
+	}
 }
 
  footer .contenedor{
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
-		padding-bottom: 25px;
-		margin-bottom: 10px;
+	/*	padding-bottom: 25px;
+		margin-bottom: -10px; */
+		position: relative;
 	}
 	.copy{
 		font-size: 20px;
@@ -123,6 +146,7 @@ p {
 		text-align: center;
 		font-size: 12px;
 		padding-bottom: 50px;
+		position: relative;
 
 	}
 	.politicas .politicas-2{
