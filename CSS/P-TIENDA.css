@@ -1,3 +1,112 @@
+header {
+  width: 100%;
+  height: 50px;
+  background:#000000;
+  color: #ff1493;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  
+}
+.contenedor{
+  width: 98%;
+  margin: auto;
+}
+h1{
+  float: left;
+}
+
+header .contenedor{
+  display: table;
+}
+#MENU{
+  display: none;
+}
+header label{
+  float: right;
+  font-size: 28px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+.MENU{
+  position: absolute;
+  top: 50PX;
+  width: 100%;
+  height: 100VH;
+  background: rgba(51, 51, 51, 0.9);
+     transition: ALL 0.5s;
+  transform: translateX(-120%); 
+}
+.MENU a{
+  display: block;
+  height: 50px;
+  text-decoration: none;
+  padding: 15px;
+  color:00FFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+}
+.MENU a:hover{
+  
+  background: cadetblue;
+}
+#MENU:checked ~ .MENU{
+  transform: translateX(0%);
+}
+@MEDIA (min-width: 1024px){
+  .MENU{
+    position: static;
+    width: auto;
+    height: auto;transform: translateX(0%);
+    float: right;
+    display: flex;
+  }
+
+.menu a{
+  border: none;
+}
+header label{
+  display: none;    
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  body{
