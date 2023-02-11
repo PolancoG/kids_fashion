@@ -10,6 +10,12 @@ body {
 * {
 	box-sizing: border-box;
 }
+
+
+
+
+
+
 .contenedor{
 	width: 100%;
 	padding: 15px;
@@ -138,7 +144,6 @@ p {
 		padding: 2px;
 	}
 	
-
 
 
 

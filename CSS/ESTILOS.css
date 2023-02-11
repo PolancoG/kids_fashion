@@ -17,10 +17,124 @@
 }
 
 body{
-    background-image: url('../IMAGENES/fondo-s.jpg');
+    background-image: url('../IMAGENES/D.jpg');
     
     font-family: 'Open sans';
 }
+
+
+
+
+
+header {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #ff1493;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+}
+
+header .contenedor{
+    display: table;
+}
+#MENU{
+    display: none;
+}
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+.MENU{
+    position: absolute;
+    top: 50PX;
+    width: 100%;
+    height: 100VH;
+    background: rgba(51, 51, 51, 0.9);
+     transition: ALL 0.5s;
+    transform: translateX(-120%);   
+}
+.MENU a{
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    color:#00FFFF ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+}
+.MENU a:hover{
+    
+    background: cadetblue;
+}
+#MENU:checked ~ .MENU{
+    transform: translateX(0%);
+}
+@MEDIA (min-width: 1024px){
+    .MENU{
+        position: static;
+        width: auto;
+        height: auto;transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+
+.menu a{
+    border: none;
+}
+header label{
+    display: none;    
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FORMULARIO =================================== */
 
@@ -30,7 +144,7 @@ body{
     margin: 50px auto;
     display: flex;
 
-    background: #fff;
+    background: 00ffff;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
@@ -47,7 +161,7 @@ body{
     top: 0;
     left: 0;
 
-    background: #4091EC;
+    background: #4091E;
     opacity: 0.9;
 }
 
@@ -190,7 +304,7 @@ form.form_contact input[type="submit"]:hover{
 }
 
 .mensaje_modal{
-    background: #fff;
+    background: #00ffff;
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
     width: 400px;
     padding: 30px 20px 15px;
@@ -280,7 +394,7 @@ form.form_contact input[type="submit"]:hover{
     }
     .copy{
         font-size: 25px;
-        color: #fff;
+        color: #00ffff;
     }
 
     .redes-s{
@@ -290,7 +404,7 @@ form.form_contact input[type="submit"]:hover{
     }
 
     .redes-s a{
-        color: #00bfff;
+        color: #fff;
         text-decoration: none;
     }
     
